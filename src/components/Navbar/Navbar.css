@@ -1,0 +1,9 @@
+.Navbar_link{
+    display: flex;
+    background-color: brown;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: justify;
+    text-decoration: none;
+
+}
