@@ -1,0 +1,11 @@
+.navbar{
+    background-color: orangered;
+    position: static;
+}
+
+.navbar-pages{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 35px;
+}

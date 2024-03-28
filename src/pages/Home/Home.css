@@ -1,0 +1,7 @@
+.catalog{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    height: 1200px;
+    width: 100%
+};
