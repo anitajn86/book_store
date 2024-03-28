@@ -2,7 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import './SignUp.css'
-import backgroundImage from './images/bg2.jpg';
+import backgroundImage from '../../images/bg2.jpg';
 
 const SignUp=()=> {
   return (
