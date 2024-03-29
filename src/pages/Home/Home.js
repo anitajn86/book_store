@@ -51,9 +51,9 @@ export default function TitleBarBelowImageList() {
 
 const itemData = [
   {
-    img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
-    title: 'Breakfast',
-    author: '@bkristastucchio',
+    img: 'C:\Users\LENOVO\Desktop\book_store\src\images\bg3.jpg',
+    title: 'The African bride',
+    author: 'Anita Namaganda',
   },
   {
     img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',

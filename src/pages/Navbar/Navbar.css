@@ -1,11 +1,7 @@
 .navbar{
-    background-color: orangered;
+    background-image: url(C:\Users\LENOVO\Desktop\book_store\src\images\bg2.jpg);
     position: static;
+    padding: 45px;
+    color: black;
 }
 
-.navbar-pages{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    padding-left: 35px;
-}

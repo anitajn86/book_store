@@ -1,6 +1,6 @@
 .catalog{
     display: flex;
-    background-color: black;
+    background-color: rgb(224, 194, 194);
     justify-content: space-between;
     height: 1200px;
     width: 100%
