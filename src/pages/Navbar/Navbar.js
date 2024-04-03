@@ -18,7 +18,7 @@ import './Navbar.css'
 
 
 
-const pages = ['Home', 'Sign Up', 'Admin','Login'];
+const pages = ['Home', 'Sign Up', 'Login','Admin'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {

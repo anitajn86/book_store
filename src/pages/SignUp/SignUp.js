@@ -2,6 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import './SignUp.css'
+import ImageAvatars from '../Avatar/Avatar';
 
 
 const SignUp=()=> {
@@ -15,6 +16,9 @@ const SignUp=()=> {
         noValidate
         autoComplete="off"
       >
+        <div className='intro'>
+          If you would wish to join our community of readers, please fill in this form.
+        </div>
         <div className='text-input'>
           <div className='the-text1'>
           <TextField id="outlined-basic" label="Name" variant="outlined" />
@@ -26,9 +30,14 @@ const SignUp=()=> {
           <TextField id="outlined-basic" label="Contact" variant="outlined" />
           </div>
         </div>
-        {/* <TextField id="filled-basic" label="Filled" variant="filled" />
-        <TextField id="standard-basic" label="Standard" variant="standard" /> */}
-        
+      </Box>
+      <Box>
+        <div className='About'>
+          YOU ARE NOW A MEMBER AND HERE ARE SOME THINGS THAT YOU MIGHT LIKE
+          <div>
+            <ImageAvatars />
+          </div>
+        </div>
       </Box>
     </div>
   );
